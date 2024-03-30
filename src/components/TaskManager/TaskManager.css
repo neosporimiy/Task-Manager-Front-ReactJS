@@ -1,0 +1,44 @@
+.task-manager-main-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.column {
+  margin: 0px;
+  padding: 3px;
+  background-color: white;
+  border-radius: 4px;
+  width: calc(100%/4 - 10px);
+  min-width: 250px;
+}
+  
+.task-list {
+  min-height: 100px;
+  padding: 8px;
+  margin-top: 8px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 767px) {
+  .task-manager-main-container {
+    width: 95%;
+  }
+  .column {
+    width: 85%;
+    min-width: 150px;
+
+  }
+}
+  

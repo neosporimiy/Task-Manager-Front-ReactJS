@@ -1,0 +1,63 @@
+.task-manager-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 20px;
+  background-color: white;
+}
+
+.board-name {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.board-menu {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.board-item {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.create-list-button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #666f91;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.history-button{
+  margin-left: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.create-list-button:hover {
+  background-color: #0056b3;
+}
+
+

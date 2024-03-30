@@ -1,0 +1,74 @@
+.add-task-details-container {
+  width: 60%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 2%;
+  overflow: hidden;
+}
+
+.add-details {
+  display: flex;
+  align-items: self-start;
+  justify-content: center;
+  min-width: 120px;
+  overflow-y: auto;
+  flex-wrap: wrap-reverse;
+}
+
+.add-main-details {
+  flex: 5;
+  margin: 20px;
+  min-width: 200px;
+}
+
+.add-buttons {
+  flex: 1;
+  margin: 20px 5px;
+  display: flex;
+  align-items: self-start;
+  justify-content: center;
+  min-width: 120px;
+}
+
+.save-button {
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+}
+
+.add-task-button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  color: black;
+  text-decoration: underline; 
+}
+
+@media screen and (max-width: 767px) {
+  .add-task-details-container {
+    width: 80%;
+  }
+  .add-main-details {
+    margin: 0px 10px;
+  }
+  
+  .add-buttons {
+    margin: 5px;
+
+  }
+}
+
+

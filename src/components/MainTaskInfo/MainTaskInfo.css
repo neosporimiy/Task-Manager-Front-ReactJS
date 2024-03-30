@@ -1,0 +1,84 @@
+.main-task-info {
+  width: 100%;
+  min-width: 270px;
+}
+
+.task-details-heading {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.task-details-heading-edit {
+  font-size: 24px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: crimson;
+  font-family: inherit;
+  padding: 0px;
+}
+
+.activity-heading {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.task-additional-info {
+  display: flex;
+  align-items: center;
+}
+
+.task-additional-label {
+  width: 40%;
+  margin: 8px 0px;
+  color: #666f91
+}
+
+.task-additional-value {
+  width: 60%;
+  margin: 8px 0px;
+}
+
+.description-label {
+  font-weight: bold;
+  white-space: pre-wrap;
+}
+
+.description-content {
+  width: 100%;
+  border-radius: 5px;
+  resize: none;
+  color: #666f91;
+  overflow-wrap: break-word;
+}
+
+.description-content-textarea{
+  width: 100%;
+  border-radius: 5px;
+  resize: none;
+  max-width: 100%;
+  min-height: 100px;
+  color: crimson;
+}
+
+.description-content p {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+input,
+select,
+textarea {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: inherit;
+  font-size: 16px;
+  border: none;
+  color: crimson;
+}
+
+@media screen and (max-width: 767px) {
+
+}
